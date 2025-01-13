@@ -6,7 +6,7 @@ export const Main = () => {
   return (
     <main>
       <section className={s.containerImg}>
-        <img src={anoNovo} alt="" />
+        <img src={anoNovo} alt="imagem de feliz 2025" />
       </section>
       
       <section className={s.containerTitles}>
