@@ -1,0 +1,16 @@
+@use '@variables' as *;
+
+.iconsFooter {
+  display: flex;
+  justify-content: end;
+  margin-right: 5rem;
+
+  svg {
+    margin: 0 0.5rem;
+    font-size: 3rem;
+    color: #fff;
+    background-color: $font-color;
+    border-radius: 50%;
+    padding: 0.5rem;
+  }
+}

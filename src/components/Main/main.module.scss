@@ -1,0 +1,41 @@
+@use '@variables' as *;
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.containerImg {
+  img {
+    height: 75vh;
+  }
+}
+
+.containerTitles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  width: 50%;
+
+  h2 {
+    color: $font-color;
+    font-size: 1.8rem;
+    font-weight: 200;
+  }
+
+  h3 {
+    color: $font-color;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  p {
+    color: $font-color;
+    font-size: 1.2rem;
+    width: 60%;
+    text-align: right;
+  }
+}
