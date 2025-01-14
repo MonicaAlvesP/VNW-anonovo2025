@@ -12,5 +12,18 @@
     background-color: $font-color;
     border-radius: 50%;
     padding: 0.5rem;
+
+    &:hover {
+      color: $font-color;
+      background-color: #fff;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .iconsFooter {
+    justify-content: center;
+    margin: 2rem 0;
+
   }
 }
