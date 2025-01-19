@@ -2,34 +2,36 @@
 
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 0 2rem;
-
 }
 
 .containerImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+
   img {
-    height: 75vh;
+    height: 80vh;
+    border-radius: 10px;
   }
 }
 
 .containerTitles {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: end;
-  width: 50%;
+  align-items: flex-end;
 
   h2 {
     color: $font-color;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 200;
   }
 
   h3 {
     color: $font-color;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
   }
 
@@ -41,11 +43,12 @@ main {
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 1279px) {
   main {
     flex-direction: column;
     padding: 0 1rem;
   }
+
   .containerTitles {
     width: 100%;
     align-items: center;
@@ -65,8 +68,11 @@ main {
   }
 
   .containerImg {
+    width: 100%;
+
     img {
-      height: 50vh;
+      height: 45vh;
+      width: 100%;
     }
   }
 }

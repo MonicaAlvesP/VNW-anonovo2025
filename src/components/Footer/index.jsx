@@ -5,9 +5,11 @@ import { AiOutlineFacebook } from "react-icons/ai";
 export const Footer = () => {
   return (
     <section className={s.iconsFooter}>
-      <CiLinkedin />
-      <CiInstagram />
-      <AiOutlineFacebook />
+      <div className={s.iconsContainer}>
+        <CiLinkedin />
+        <CiInstagram />
+        <AiOutlineFacebook />
+      </div>
     </section>
   )
 }

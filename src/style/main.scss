@@ -1,4 +1,4 @@
-@import './variables.scss';
+@use './variables.scss' as *;
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
 
@@ -14,7 +14,5 @@ body {
   font-family: "Zen Maru Gothic", serif;
   background-image: url('../assets/background.png');
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+  padding: 1rem;
 }
